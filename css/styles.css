@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background: #F4F4C2;
+    line-height: 1.5;
+}
+
+.timer {
+    font-family: sans-serif;
+    padding: 5px 10px;
+    border-radius: 40px;
+    background: #878ECD;
+    margin: 10px auto;
+    width: fit-content;
+}
+
+.timer span{
+    color: #F4F4C2;
+    font-size: 100px;
+}
+
+#wrapper {
+    max-width: 1100px;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+header {
+    background: #F4F4C2;
+    height: 220px;
+    overflow: hidden;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+    border-radius: 40px;
+}
+
+h1, h3 {
+    color: #878ECD;
+    text-align: center;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+footer {
+    padding-top: 10px;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #878ECD;
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#878ECD;
+}
+
+footer ul {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+footer li {
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+
+#logo {
+    float: left;
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+
+.buttonCluster {
+    background: #878ECD;
+    padding: 50px;
+    margin: 100px auto 250px;
+    border-radius: 40px;
+    width: fit-content;
+}
+
+.error {
+    display: block;
+    color: red;
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+
+button { /* Default state */
+    width: 100px;
+    height: 100px;
+    margin: 0px 20px;
+    border: transparent;
+    background: url(images/blank.png);
+    display: inline-block;
+}
+
+button:hover { /* On hover */
+    background: url(images/hovered.png);
+}
+
+button:focus { /* After a click */
+    background: url(images/pressed.png);
+}
+
+button:disabled{
+    background: url(images/disabled.png);
+}
